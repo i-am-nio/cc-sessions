@@ -1,0 +1,18 @@
+import { defineConfig } from 'tsup'
+
+export default defineConfig({
+  entry: { index: 'src/index.ts' },
+  format: ['esm'],
+  target: 'node20',
+  platform: 'node',
+  splitting: false,
+  sourcemap: true,
+  clean: true,
+  shims: true,
+  banner: {
+    js: '#!/usr/bin/env node',
+  },
+  esbuildOptions(opts) {
+    opts.jsx = 'automatic'
+  },
+})
