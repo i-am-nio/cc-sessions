@@ -44,7 +44,8 @@ Mark one or more sessions with `X`, then confirm deletion with `Z`.
 ## ⚡ Quick Start
 
 ```bash
-npx @i-am-nio/cc-sessions@latest init
+npm install -g @i-am-nio/cc-sessions
+cc-sessions init
 ```
 
 That's it! cc-sessions will set up hooks, import your existing sessions, and register the `/bookmark` slash command inside Claude Code.

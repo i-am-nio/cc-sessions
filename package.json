@@ -1,6 +1,6 @@
 {
   "name": "@i-am-nio/cc-sessions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Session bookmark manager for Claude Code CLI",
   "type": "module",
   "bin": {
@@ -45,5 +45,6 @@
     "productivity"
   ],
   "author": "i-am-nio",
-  "license": "MIT"
+  "license": "MIT",
+  "preferGlobal": true
 }

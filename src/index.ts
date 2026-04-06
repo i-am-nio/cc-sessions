@@ -15,7 +15,7 @@ const program = new Command()
 program
   .name('cc-sessions')
   .description('Session bookmark manager for Claude Code CLI')
-  .version('1.0.0')
+  .version('1.0.1')
 
 program
   .command('init')
